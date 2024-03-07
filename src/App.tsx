@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "./logo.svg";
+import { Btn } from "./App.styled";
 import "./App.css";
 
 function App() {
@@ -8,9 +9,11 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
 
-        <button type="button">
+        <Btn type="button">
           <p> Learn React</p>
-        </button>
+          {/* <img src={<Icon />} alt="svg" /> */}
+          {/* <Icon /> */}
+        </Btn>
       </header>
     </div>
   );
