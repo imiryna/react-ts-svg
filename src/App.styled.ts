@@ -1,5 +1,5 @@
 import styled from "styled-components";
-// import * as Logo from "./logo.svg";
+import { ReactComponent as Logo } from "./logo.svg";
 
 export const Btn = styled.button`
   display: flex;
@@ -7,7 +7,7 @@ export const Btn = styled.button`
   gap: 8px;
   color: white;
   border-radius: 6px;
-  background-color: #61dafb;
+  background-color: red;
   border: 1px solid #61dafb;
 
   &:hover {
@@ -15,8 +15,8 @@ export const Btn = styled.button`
   }
 `;
 
-// export const Icon = styled(Logo)`
-//   fill: white;
-//   width: 16px;
-//   height: 16px;
-// `;
+export const Icon = styled(Logo)`
+  fill: white;
+  width: 32px;
+  height: 32px;
+`;
